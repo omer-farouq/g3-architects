@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    border: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    background: rgba(255, 144, 14, 0.1);
+    padding: 60px 200px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-items ul{
+    list-style: none;
+   
+}
+.nav-items ul li{
+    display: inline;
+    padding: 20px;  
+}
+.nav-items ul a{
+    text-decoration: none;
+    color: #424242;
+}
+.logo{
+    color: #131313;
+    font-weight: 600;
+}
+
+
+.brand-new-section{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.brand-new-section img{
+    width: 720px;
+    margin: 30px;
+}
+.brand-title{
+    font-size: 40px;
+    font-weight: 800;
+}
+.btn-primary {
+    width: 210px;
+    font-size: 23px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background: #FF900E;
+    padding: 19px 2px;
+    margin: 4px;
+    border-radius: 11px;
+    cursor: pointer;
+}
+.brand-description{
+    color: #727272;
+    margin: 30px 0;
+}
+
+
+/* second section style */
+
+.features-section{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    /* padding: 0 180px; */
+
+}
+.quick-list{
+    font-size: 40px;
+    display: inline-block;
+    width: 50%;
+}
+.team-images{
+    width: 60%;
+}
+.team-img{
+    display: flex;
+    flex-wrap: wrap;
+}
+.team-img img{
+    max-width: 40%;
+    margin: 10px;
+}
+.features{
+    color: #FF900E;
+    font-family: bold;
+}
+
+.qucik{
+    color: #727272;
+}
+.quick-list-description{
+     color: #727272;
+     font-size: 9px;
+     margin: 20px 0;
+}
+
+
+
+/* ===============================
+
+    love and enjoy section styles 
+
+=====================================*/
+.love-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10%;
+    padding: 60px 200px; 
+    /* width: 100%; */
+    margin-top: 100px;
+    /* background: #727272; */
+    
+}
+
+
+
+.left-side-header{
+    border-left: 2px solid #FF900E;
+    padding: 10px 10px;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+.left{
+    /* width: 70%; */
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    padding:20px;
+    margin: 20px 10px;
+    
+}
+/* height: 1059px;
+    width: 1440px; */
+/* .left-img{
+    width: 20%;
+}   */
+.left-img img{
+    
+    /* height: 600px; */
+    margin-left: 16px;
+    /* width: 50%; */
+}
+.right-img img {
+    width:100%
+}
+.primary-color {
+    color: #727272;
+}
+.experience-section{
+    display: flex;
+    justify-content: center;
+    
+}
+.experience-div{
+    text-align: center; 
+    transform: translate(140px, -300px);    
+}
+
+.experience-div button{
+    background-color: #FF900E;
+    color: #FFFFFF;
+    border-radius: 20px;
+    width: 400px;
+    /* height: 150px; */
+    padding: 30px 60px;
+}
+.experience-10{
+    font-size: 80px;
+    /* width: 700; */
+    background-color: #FF900E;
+}
+
+/* =============================
+
+    some facts styles 
+
+===============================*/
+
+.some-facts-title{
+    margin-left: 180px;
+}
+.some-facts-title2{
+    font-size: 45px;
+    color: #131313;
+}
+.some-facts-description{
+    font-size: 16px;
+    color: #727272;
+    margin: 20px 0;
+}
+
+.some-facts{
+    display: flex;
+    margin: 30px 180px 120px;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.some-facts-item{
+    border: 1px solid #FF900E;
+    /* justify-conte/nt: center; */
+    
+    text-align: center;
+    border-radius: 5px;
+    
+    width: 150px;
+    height: 150px;
+    padding: 5 px;
+    margin: 5px;
+}
+.some-facts-item h3{
+    font-size: 20px;
+    margin: 5px;
+}
+.some-facts-item img{
+    margin-top: 10px;
+    width: 40px;   
+}
+
+.some-facts-item p{
+    margin: 10px;
+}
+
+/* =======================================
+        sponsor section styles 
+
+  ======================================*/
+ .sponsor-title{
+    margin-bottom: 24px;
+  }
+  .sponsor-description{
+    font-size: 16px;
+    margin-bottom: 50px;
+    color: #727272;
+  }
+
+  .sponsor-info{
+    width: 542px;
+    height: 129px;
+    margin: auto;
+    text-align: center;
+}
+
+.sponsors-images{
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    margin: 10px 180px;
+    margin-top: 50px;
+}
+.image img{
+
+    width: 50%;
+    
+    /* height: 50px; */
+}
+
+
+/* ==================
+
+        footer style 
+
+=============*/
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    border-radius: 20px;   
+}
+.footer-info p {
+    margin: 30px 30px 30px;
+    padding: 32px 260px;
+    border-radius: 10px;
+    background-color: #FFF4E7;
+    font-weight: 400;
+    font-size: 18px;
+    color: #424242;
+}
+
+.hide{
+    display: none;
+}
+
+/*--========= responsive  ==============--*/
+@media only screen and (max-width:576px) {
+    header{
+        background: rgba(255, 144, 14, 0.1);
+        padding: 33px 20px;
+    }
+    .brand-new-section img {
+        width: 330px;
+        margin: 20px;
+    }
+    .nav-items{
+        flex-direction: column;
+    }
+    .features-section{
+        
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .quick-list{
+        width: 100%;
+        margin-top: 10px;
+        font-size: 40px;
+    }
+    .team-images{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .team-img{
+        flex-direction: column;    
+    }
+    .team-img img{
+        max-width: 100%;
+        margin: 10px;
+    }
+    .btn-primary {
+        width: 210px;
+        font-size: 23px;
+        font-weight: 600;
+        color: #FFFFFF;
+        background: #FF900E;
+        padding: 19px 2px;
+        margin: 4px;
+        border-radius: 11px;
+        cursor: pointer;
+    }
+    .love-section{
+        
+        grid-template-columns: repeat(1, 1fr);
+        
+        padding: 60px 50px; 
+        /* width: 100%; */
+        margin-top: 30px;     
+    }
+    .some-facts-title{
+        margin: 122px 30px 60px;
+    }
+    .some-facts{
+        flex-direction: column;
+        margin: 30px 100px 120px;
+    }
+    .some-facts-item{
+        border: 1px solid #FF900E;
+        text-align: center;
+        border-radius: 10px;
+        width: 200px;
+        height: 200px;
+        
+            
+    }
+    .some-facts-item h3 {
+        font-size: 48px;
+        
+    }
+    .some-facts-item p {
+        font-size: 25px;
+    }
+    .some-facts-item img {
+        margin-top: 30;
+       
+    }
+    .footer{
+        margin: 15px 15px 15px;         
+        align-items: center;        
+    }
+    .footer-info p {
+        padding: 37px 84px;
+        font-size: 30px;  
+    }
+
+}
