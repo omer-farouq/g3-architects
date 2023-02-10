@@ -286,27 +286,20 @@ nav{
     color: #424242;
 }
 
-.hide{
-    display: none;
-}
-
 /*--========= responsive  ==============--*/
 @media only screen and (max-width:576px) {
     header{
         background: rgba(255, 144, 14, 0.1);
         padding: 33px 20px;
-    }
-    
+    } 
     .nav{
         flex-direction: column;
-        text-align: center;
-        
+        text-align: center;  
     }
     .nav-items ul{
         display: flex;
         flex-direction: column;
     }
-    
     .nav-items ul a{
         font-size: 20px;
     }
@@ -360,11 +353,8 @@ nav{
         cursor: pointer;
     }
     .love-section{
-        
         grid-template-columns: repeat(1, 1fr);
-        
         padding: 60px 50px; 
-        /* width: 100%; */
         margin-top: 30px;     
     }
     .some-facts-title{
@@ -379,20 +369,16 @@ nav{
         text-align: center;
         border-radius: 10px;
         width: 200px;
-        height: 200px;
-        
-            
+        height: 200px;         
     }
     .some-facts-item h3 {
-        font-size: 48px;
-        
+        font-size: 48px;     
     }
     .some-facts-item p {
         font-size: 25px;
     }
     .some-facts-item img {
-        margin-top: 30;
-       
+        margin-top: 30; 
     }
     .experience-10 {
         font-size: 45px;
@@ -430,14 +416,15 @@ nav{
         height: 100px;
         margin: auto;
         text-align: center;
-        /* margin-bottom: 50px; */
     }
     .sponsors-images{
         flex-direction: column;  
-        margin: 10px 30px;  
+        justify-content: center;
+        align-items: center;
+        margin: 180px 30px;  
     }
     .image img{
-        /* width: 100%; */
+        width: 100%;
     }
 
 }
