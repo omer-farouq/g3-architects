@@ -296,6 +296,27 @@ nav{
         background: rgba(255, 144, 14, 0.1);
         padding: 33px 20px;
     }
+    
+    .nav{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .nav-items ul{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .nav-items ul a{
+        font-size: 20px;
+    }
+    .logo{
+        font-size:30px;
+    }
+    .nav-link a{
+        font-size: 30px;
+    }
+
     .brand-new-section img {
         width: 330px;
         margin: 20px;
@@ -373,6 +394,10 @@ nav{
         margin-top: 30;
        
     }
+    .experience-10 {
+        font-size: 45px;
+        background-color: #FF900E;
+    }
     .footer{
         margin: 15px 15px 15px;         
         align-items: center;        
@@ -380,6 +405,39 @@ nav{
     .footer-info p {
         padding: 37px 84px;
         font-size: 30px;  
+    }
+    .experience-div button{
+        width: 100%;
+        
+        padding: 10px 30px;
+        align-items: center;
+    }
+    .experience-div{
+        text-align: center; 
+        transform: translate(0,0);    
+    }
+    .experience-10{
+        font-size: 30px;
+        
+    }
+    .experience-section{
+        height: 100px;
+        width: 100px;
+        text-align: center;
+    }
+    .sponsor-info{
+        width: 200px;
+        height: 100px;
+        margin: auto;
+        text-align: center;
+        /* margin-bottom: 50px; */
+    }
+    .sponsors-images{
+        flex-direction: column;  
+        margin: 10px 30px;  
+    }
+    .image img{
+        /* width: 100%; */
     }
 
 }
